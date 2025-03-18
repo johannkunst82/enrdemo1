@@ -108,16 +108,16 @@ function FirstPage() {
           onChange={(e) => setBotResponse(e.target.value)}
         />          
         <div style={{paddingTop: "30px"}} >
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[0]); setBotResponse(""); return false;}}>Prompt 1</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[1]); setBotResponse(""); return false;}}>Prompt 2</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[2]); setBotResponse(""); return false;}}>Prompt 3</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[3]); setBotResponse(""); return false;}}>Prompt 4</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[4]); setBotResponse(""); return false;}}>Prompt 5</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[5]); setBotResponse(""); return false;}}>Prompt 6</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[6]); setBotResponse(""); return false;}}>Prompt 7</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[7]); setBotResponse(""); return false;}}>Prompt 8</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[8]); setBotResponse(""); return false;}}>Prompt 9</button>
-          <button className="btn m-2 btn-sm btn-outline-success" onClick={(e) => {e.preventDefault(); setInput(PP[9]); setBotResponse(""); return false;}}>Prompt 10</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[0]); setBotResponse(""); return false;}}>Prompt 1</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[1]); setBotResponse(""); return false;}}>Prompt 2</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[2]); setBotResponse(""); return false;}}>Prompt 3</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[3]); setBotResponse(""); return false;}}>Prompt 4</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[4]); setBotResponse(""); return false;}}>Prompt 5</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[5]); setBotResponse(""); return false;}}>Prompt 6</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[6]); setBotResponse(""); return false;}}>Prompt 7</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[7]); setBotResponse(""); return false;}}>Prompt 8</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[8]); setBotResponse(""); return false;}}>Prompt 9</button>
+          <button className="btn m-2 btn-sm btn-outline-primary" onClick={(e) => {e.preventDefault(); setInput(PP[9]); setBotResponse(""); return false;}}>Prompt 10</button>
         </div>        
         <textarea
           className="border border-primary rounded mb-4"

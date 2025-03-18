@@ -74,7 +74,9 @@ function FirstPage() {
       fetchAnswer();
       //console.log((await response.json()).choices[0].message.content);    
       //let [botResponse, setBotResponse] = useState("xx");
-  };
+  };  
+
+  let x = 0;
 
   const PP= [
               "Welche bestehenden und zukünftigen Fördermaßnahmen auf EU- und Bundesebene sind für energieintensive Mittelstandsunternehmen besonders relevant? Analysiere die Wirksamkeit von Investitionszuschüssen, steuerlichen Abschreibungsmodellen und speziellen Industriestromtarifen im Vergleich zu direkten Subventionen. Welche Risiken entstehen durch Fehlanreize (z. B. „Carbon Leakage“ oder Mitnahmeeffekte), und wie könnte eine intelligente Förderpolitik ausgestaltet werden, um sowohl Klimaziele als auch die Wettbewerbsfähigkeit der deutschen Industrie zu sichern?",

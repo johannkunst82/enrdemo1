@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+h1,h2,h3,h4,h5,h6 { color: #0099cc;}
+body {font-family: Lato, Arial, sans-serif; color: #333;}
+a.nav-link { color: #0099cc !important; text-decoration: none; }
+textarea { color: #666; padding: 10px; }
+button.btn.m-2.btn-sm.btn-outline-success { color: #0099cc !important; border-color: #0099cc !important }
 #root {
   max-width: 1280px;
   margin: 0 auto;

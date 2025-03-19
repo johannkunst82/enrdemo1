@@ -34,7 +34,7 @@ export default function HeaderComp() {
                 <NavDropdown.Item target='_blank' href="/about">FAQ</NavDropdown.Item>
                 <NavDropdown.Item target='_blank' href="/about">Tutorials</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item target='_blank' href="/about">Version</NavDropdown.Item>
+                <NavDropdown.Item target='_blank' href="/about">Version 1.3.1</NavDropdown.Item>
               </NavDropdown>
 
             </Nav>

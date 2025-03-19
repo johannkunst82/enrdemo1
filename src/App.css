@@ -11,6 +11,8 @@ button.btn.m-2.btn-sm.btn-outline-success { color: #0099cc !important; border-co
   text-align: center;
 }
 
+.btn.m-2.btn-sm.btn-link { margin: 5px -1px !important;}
+
 .logo {
   height: 6em;
   padding: 1.5em;
